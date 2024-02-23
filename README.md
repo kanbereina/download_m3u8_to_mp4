@@ -5,3 +5,9 @@
 必要的Python软件包：
 1. httpx
 2. loguru（为方便显示日志，不使用的话可以把源码logger.xxx部分改成print）
+
+
+
+
+注：
+如果有多个index.m3u8文件下载视频的需求，可以再次用asyncio.create_task()方法增加下载效率
